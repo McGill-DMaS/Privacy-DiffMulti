@@ -1,0 +1,22 @@
+To generate a DiffMulti executable for a specific score function, open TDDef.hpp, uncomment the desidered score function and comment the other score functions.
+
+For example, to choose Max, do the following in TDDef.hpp:
+
+// Score functions
+//#define _TD_SCORE_FUNCTION_INFOGAIN	
+#define _TD_SCORE_FUNTION_MAX			
+//#define _TD_SCORE_FUNTION_DISCERNIBILITY
+//#define _TD_SCORE_FUNCTION_NCP
+
+
+Max and InfoGain require changing the name file to convery the multidimensional nature of the output data to the C4.5 classifier. If Max (or InfoGain) has been chosen as a score function, do the following in TDDef.hpp:
+
+// Name file
+//#define _TD_NAME_FILE_NORMAL
+#define _TD_NAME_FILE_MULTIDIM
+
+For Disc and NCP, do:
+
+// Name file
+#define _TD_NAME_FILE_NORMAL
+//#define _TD_NAME_FILE_MULTIDIM
