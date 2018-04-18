@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiffMulti", "DiffMulti\DiffMulti.vcxproj", "{630272E6-AD22-4251-B7C3-D8CD39B03134}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3C21C61-426C-48D0-A49E-37DC9ECD3F24} = {F3C21C61-426C-48D0-A49E-37DC9ECD3F24}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFLib", "..\BFLib\BFLib.vcxproj", "{F3C21C61-426C-48D0-A49E-37DC9ECD3F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630272E6-AD22-4251-B7C3-D8CD39B03134}.Debug|Win32.ActiveCfg = Debug|Win32
+		{630272E6-AD22-4251-B7C3-D8CD39B03134}.Debug|Win32.Build.0 = Debug|Win32
+		{630272E6-AD22-4251-B7C3-D8CD39B03134}.Release|Win32.ActiveCfg = Release|Win32
+		{630272E6-AD22-4251-B7C3-D8CD39B03134}.Release|Win32.Build.0 = Release|Win32
+		{F3C21C61-426C-48D0-A49E-37DC9ECD3F24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F3C21C61-426C-48D0-A49E-37DC9ECD3F24}.Debug|Win32.Build.0 = Debug|Win32
+		{F3C21C61-426C-48D0-A49E-37DC9ECD3F24}.Release|Win32.ActiveCfg = Release|Win32
+		{F3C21C61-426C-48D0-A49E-37DC9ECD3F24}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
