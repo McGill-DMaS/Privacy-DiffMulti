@@ -3,17 +3,17 @@ Differentially private multidimensional data publishing
 
 Publication:
 
-K. Al-Hussaeni, B. C. M. Fung, F. Iqbal, J. Liu, and P. C. K. Hung. Differentially private multidimensional data publishing. Knowledge and Information Systems (KAIS): An International Journal, in press. Springer.
+K. Al-Hussaeni, B. C. M. Fung, F. Iqbal, J. Liu, and P. C. K. Hung. Differentially private multidimensional data publishing. Knowledge and Information Systems (KAIS), 56(3):717-752, September 2018. Springer.
 
 @article{AFILH18kais,
         author = "K. Al-Hussaeni and B. C. M. Fung and F. Iqbal and J. Liu and P. C. K. Hung",
         title = "Differentially Private Multidimensional Data Publishing",
         journal = "Knowledge and Information Systems (KAIS)",
-        volume = "",
-        number = "",
-        pages = "",
-        month = "",
-        year = "in press",
+        volume = "56",
+        number = "3",
+        pages = "717-752",
+        month = "September",
+        year = "2018",
 }
 
 Disclaimer:
